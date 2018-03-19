@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	
+    <!--Device Trees-->
+    <project path="device/samsung/zero-common" name="CrDroid-exynos7420/android_device_samsung_zero-common" revision="cr" remote="github" />
+    <project path="device/samsung/zerofltexx" name="CrDroid-exynos7420/android_device_samsung_zerofltexx" revision="cr" remote="github" />
+    
+    <!--Kernel-->
+    <project path="kernel/samsung/exynos7420" name="CrDroid-exynos7420/android_kernel_samsung_exynos7420" revision="cr" remote="github" />
+
+    <!--Proprietary Files-->
+    <project path="vendor/samsung" name="CrDroid-exynos7420/proprietary_vendor_samsung" revision="cr" remote="github" />
+
+    <!--Dependencies-->
+    <project path="hardware/samsung/" name="CrDroid-exynos7420/android_hardware_samsung" revision="lineage-15.1" remote="github" />
+    <project path="hardware/samsung_slsi-cm/exynos" name="CrDroid-exynos7420/android_hardware_samsung_slsi-cm_exynos" revision="lineage-15.1" remote="github" />
+    <project path="hardware/samsung_slsi-cm/exynos5" name="CrDroid-exynos7420/android_hardware_samsung_slsi-cm_exynos5" revision="lineage-15.1" remote="github" />
+    <project path="hardware/samsung_slsi-cm/openmax" name="CrDroid-exynos7420/android_hardware_samsung_slsi-cm_openmax" revision="lineage-15.1" remote="github" />
+    <project path="hardware/samsung_slsi-cm/exynos7420" name="CrDroid-exynos7420/android_hardware_samsung_slsi-cm_exynos7420" revision="lineage-15.1" remote="github" />
+    
+</manifest>
