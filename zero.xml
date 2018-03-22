@@ -3,12 +3,12 @@
 <manifest>
 	
     <!--Device Trees-->
-    <project path="device/samsung/zero-common" name="CrDroid-exynos7420/android_device_samsung_zero-common" revision="cr" remote="github" />
+    <project path="device/samsung/zero-common" name="CrDroid-exynos7420/android_device_samsung_zero-common" revision="test" remote="github" />
     <project path="device/samsung/zerofltexx" name="CrDroid-exynos7420/android_device_samsung_zerofltexx" revision="cr" remote="github" />
 
     <!--Kernel-->
-    <project name="zerofltexx-aex/android_kernel_samsung_exynos7420" path="kernel/samsung/exynos7420" remote="github" revision="aex" />
-  
+    <project name="CrDroid-exynos7420/android_kernel_samsung_exynos7420" path="kernel/samsung/exynos7420" remote="github" revision="cr" />
+	
     <!--Linaro-->
     <project name="francitato/android_prebuilts_linaro" path="prebuilts/linaro" remote="github" revision="nx-8.1" />
 
